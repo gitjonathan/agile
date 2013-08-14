@@ -10,5 +10,7 @@ Cabal-Version:    >=1.2
 
 Executable agile
   Main-is:        agile.hs
-  Build-Depends:  base >= 3 && < 5
+  Build-Depends:  
+    base >= 3 && < 5,
+    directory 
 
