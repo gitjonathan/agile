@@ -1,0 +1,14 @@
+Name:             agile
+Version:          0.0
+Description:      Command-line interface to text-based agile storage database
+License:          MIT
+License-file:     LICENSE
+Author:           Jonathan McCluskey
+Maintainer:       jonathan.m.mccluskey@gmail.com
+Build-Type:       Simple
+Cabal-Version:    >=1.2
+
+Executable agile
+  Main-is:        agile.hs
+  Build-Depends:  base >= 3 && < 5
+
